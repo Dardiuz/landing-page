@@ -1,2 +1,4 @@
 # landing-pagina
-Pokemon webpage
+Project: Landing Page Foundations Course
+
+Making my own web page.
