@@ -3,7 +3,6 @@ Body {
     padding: 0;
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
-
 }
 
 /* navbar starts here */
@@ -13,7 +12,7 @@ Body {
     flex-direction: column;
 }
 
-.navbar{
+.navbar {
     display: flex;
 
     background-color: #1F2937;
@@ -33,7 +32,7 @@ Body {
     font-weight: bold;
 }
 
-.navbar img{
+.navbar img {
     margin-left: 10%;
     width: 65px;
     height: 65px;
@@ -54,12 +53,14 @@ Body {
     padding: 30px;
 
 }
+
 .header-text h1 {
     color: white;
     margin-left: 15px;
 
 }
-.header-text p{
+
+.header-text p {
     color: #fff;
     margin-left: 15px;
     margin-top: -15px;
@@ -91,6 +92,8 @@ Body {
 
 /* content starts here */
 .content {
+    padding-top: 15px;
+    padding-bottom: 80px;
     align-items: center;
     text-align: center;
 }
@@ -110,3 +113,32 @@ Body {
     margin: 5px 20px 0px 20px;
 }
 
+/* content stuff ends here */
+
+/* quote stuff starts here */
+
+.quote {
+    display: inline-block;
+    /* border: 4px solid #6500a8; */
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    text-align: center; 
+
+}
+.quote p {
+    opacity: 0.8;
+}
+
+.quote span {
+    margin-left: 100px;
+    padding-top: 15px;
+    color: #851dca;
+    display: block;
+}
+.quote b {
+    display: block;
+    margin-left: 320px;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
