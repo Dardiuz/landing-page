@@ -142,3 +142,51 @@ Body {
     padding-bottom: 15px;
     font-size: 24px;
 }
+
+/* action stuff starts here */
+.action {
+    display: flex;
+    align-items: left;
+    padding: 5em 13em;
+}
+
+.action-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 3em;
+    border-radius: 10px;
+}
+
+.action-text {
+    color: #fff;
+}
+
+.action-time button {
+    display: block;
+    text-align: center;
+    width: 105px;
+    border: 2px solid #FFF;
+    background: #3882f6;
+    padding: 6px;
+    margin-left: 15px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* footer stuff */
+footer {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #1F2937;
+    font-family: 'Roboto', arial;
+    padding: 20px;
+}
+
+
