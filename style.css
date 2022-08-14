@@ -144,11 +144,14 @@ Body {
 .action {
   display: flex;
   align-items: left;
+  align-items: center;
+  justify-content: center;
   padding: 5em 13em;
 }
 
 .action-time {
   display: flex;
+  /* border: 3px solid red; */
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
